@@ -19,7 +19,7 @@ body {
 /* Pseudo-elemento ::before para o corpo da página */
 body::before {
     /* Imagem de fundo */
-    background-image: url("img/img6.jpeg");
+    background-image: url("img6.jpeg");
     background-repeat: no-repeat; /* Não repetir a imagem de fundo */
     background-position: right; /* Posição da imagem à direita */
     content: ""; /* Cria um conteúdo pseudo-elemento */
@@ -41,7 +41,7 @@ body::before {
     border-radius: 24px; /* Borda arredondada */
     border: 1px solid #1875E8; /* Cor da borda */
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15); /* Sombra */
-    background-image: url("img/Ruido.png"); /* Imagem de fundo */
+    background-image: url("Ruido.png"); /* Imagem de fundo */
     background-size: 100% 100%; /* Tamanho da imagem de fundo */
     position: relative; /* Posição relativa para elementos filhos */
 }
